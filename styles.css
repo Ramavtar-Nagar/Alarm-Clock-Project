@@ -1,0 +1,86 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3ddcd1;
+  }
+
+/* Center the clock-face container both horizontally and vertically */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+/* Style the clock container */
+.clock-face {
+    max-width: calc(300px + 33%);
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 36px 60px;
+    background-color: #119be0;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+    text-align: center;
+  }
+  
+/* Style the time display */
+  .time {
+    font-size: 29px;
+    margin-bottom: 10px;
+  }
+
+/* Style for the alarm input fields and button */
+.alarm-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.alarm-inputs input[type="number"], .alarm-inputs select {
+    width: 90px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.alarm-inputs button {
+    width: 90px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;  
+}
+
+/* Style for the alarms list */
+#alarms-list {
+  margin: 15px;
+    list-style-type:none;
+    padding: 0;
+}
+
+#alarms-list li {
+    padding: 0.5rem 1.5rem 1rem;
+	  border-radius: 1.5rem;
+	  background: peachpuff;
+    font-size: 16px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #000000;
+    padding: 5px;
+    margin: 9px;
+}
+
+/* Style for the alert message */
+.alert {
+    background-color: #FF5733;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
