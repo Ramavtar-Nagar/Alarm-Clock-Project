@@ -13,11 +13,11 @@ It also had a delete button functionality so that in case if we want to delete a
 ## Languages used
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-Used for making the basic structure of the project like input fields, form and submit button etc. 
+Used for the basic and good looking styling of the project so that the project looks good and appealing.
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
-Used for the basic and good looking styling of the project so that the project looks good and appealing.
+Used for making the basic structure of the project like input fields, form and submit button etc.
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
