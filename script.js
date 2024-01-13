@@ -95,7 +95,7 @@ setAlarmButton.addEventListener('click',  () => {
     // Creating an alarm object
     const alarm = {
         hours: alarmHours,
-        // minutes: alarmMinutes.toString().padStart(2, '0'), // Ensure two-digit format
+        minutes: alarmMinutes.toString().padStart(2, '0'), // Ensure two-digit format
         seconds: alarmSeconds.toString().padStart(2, '0'), // Ensure two-digit format
         ampm: ampm
     };
